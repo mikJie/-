@@ -1,0 +1,12 @@
+/* pages/setUp/setUp.wxss */
+.loginStage{
+  height: 50px;
+  width: 100px;
+  border: 1px solid gray;
+  line-height: 50px;
+  text-align: center;
+  margin: 20px auto
+}
+.hide{
+  display: none;
+}

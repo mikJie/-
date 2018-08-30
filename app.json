@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/common/common",
+    "pages/header/header",
+    "pages/imgcool/imgcool",
+    "pages/BWL/BWL",
+    "pages/setUp/setUp",
+    "pages/register/register",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "color": "gray",
+      "selectedColor": "skyblue",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "iconPath":"image/首页.png",
+          "selectedIconPath":"image/首页 (1).png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/BWL/BWL",
+          "iconPath": "image/备忘录.png",
+          "selectedIconPath": "image/备忘录 (1).png",
+          "text": "备忘录"
+        },
+        {
+          "pagePath": "pages/imgcool/imgcool",
+          "iconPath": "image/图库.png",
+          "selectedIconPath": "image/图库 (1).png",
+          "text": "图库"
+        },
+        {
+          "pagePath": "pages/setUp/setUp",
+            "iconPath": "image/设置.png",
+            "selectedIconPath": "image/设置 (1).png",
+          "text": "设置"
+        }
+      ]
+    }
+  
+
+}

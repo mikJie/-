@@ -1,0 +1,11 @@
+<view class="itemView">
+  <view class='itemViewHead'>
+   <input class='input' type='text' placeholder='请输入账号' bindblur='dneglu'/>
+   <input class='input' type='password' placeholder='请输入密码' bindblur='zhuce'/>
+  </view>
+  <view class='iteamFooter'>
+   <button class='button denglu' bindtap='Btnheaf'>登录</button>
+   <button class='button zhuce' bindtap='register'>注册</button>
+   <view class='{{showView}}'>{{essage}}</view>
+  </view>
+</view>

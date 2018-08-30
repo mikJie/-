@@ -1,0 +1,10 @@
+<!--pages/BWL/BWL.wxml-->
+<view>
+  <view class='{{loginStage==true?"hide":""}}'>
+    <image src='../../image/login.png' bindtap='loginBtn'/>
+  </view>
+  <view class='{{loginStage==true?"":"hide"}}'>
+    123
+  </view>
+</view>
+<!-- <footer id="footer"></footer> -->

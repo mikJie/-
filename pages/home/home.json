@@ -1,0 +1,32 @@
+{
+  "usingComponents": {
+    "header": "../header/header",
+    "footer": "../footer/footer"
+  },
+  "pages": [
+    "../pages/home/home",
+    "../pages/imgcool/imgcool",
+    "../pages/BWL/BWL",
+    "../pages/setUp/setUp"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "../pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "../pages/BWL/BWL",
+        "text": "备忘录"
+      },
+      {
+        "pagePath": "../pages/imgcool/imgcool",
+        "text": "图库"
+      },
+      {
+        "pagePath": "../pages/setUp/setUp",
+        "text": "设置"
+      }
+    ]
+  }
+}

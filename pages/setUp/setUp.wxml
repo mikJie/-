@@ -1,0 +1,9 @@
+<view>
+  <view class='loginStage {{loginStage==true?"":"hide"}}'>
+        <button open-type="getUserInfo" bindtap='gerUserInfo'>用户信息</button>
+  </view>
+  <view class='{{loginStage==true?"hide":""}}'>
+    <view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<view class='register'>
+  <view class='content' wx:for="{{content}}" wx:for-item='item' wx:key='id'>
+    <view class='content-head'>
+      <view class='float_left'>{{item.name}}</view>
+      <view class='float_right'>
+        <input type='{{item.type}}' class='input'data-id="{{item.id}}" data-name='{{item.name}}' bindblur='getUserDetail'/>
+      </view>
+    </view>
+    <view class='float_right showview '>{{item.showview}}</view>
+  </view>
+  <view>
+    <button open-type='getUserInfo' bindtap='registerBtn'>注册</button>
+  </view>
+</view>

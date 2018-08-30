@@ -1,0 +1,39 @@
+.itemView{
+  height: 100%;
+  width: 100%;
+}
+.itemViewHead{
+  margin-top:100px; 
+}
+.input{
+  height: 30px;
+  width: 200px; 
+  text-align: center;
+  border: 1px solid gray;
+  border-radius:10px; 
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.iteamFooter{
+  width: 200px;
+  margin: 40px auto
+}
+.button{
+  height: 60rpx;
+  width: 180rpx;
+  border: 1px solid royalblue;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.denglu{
+  float: left;
+}
+.zhece{
+  float: right
+}
+.hide{
+  display: none
+}
+.show{
+  display: block
+}

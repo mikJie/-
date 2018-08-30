@@ -1,0 +1,8 @@
+<view class='commonFooter'>
+  <view class='footer-button' wx:for="{{list}}" wx:for-item='item' wx:key='id'>
+    <view class='{{_num==item.id?"addColor":""}}'  data-id='{{item.id}}' data-name='{{item.name}}' bindtap='heafOther'>
+      <view class="iconfont {{item.icon}}"></view>
+      <view class='footerName'>{{item.name}}</view>
+    </view>
+  </view>
+</view>
